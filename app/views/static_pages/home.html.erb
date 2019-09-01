@@ -1,0 +1,13 @@
+<%= form_tag root_url, method: :get do %>
+    <%= label_tag :id %>
+    <%= text_field_tag :id %>
+    <%= submit_tag "Get Photos!" %>
+<% end %>
+
+<% if @id %>
+    <% list = flickr.people.getPhotos(:user_id => @id) %>
+    <% list.each do |item| %>
+        <% info= flickr.photos.getInfo(:photo_id => item.id) %> 
+        <%= image_tag FlickRaw.url_m(info) %></br>
+    <% end %>
+<% end %>
