@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App to view photos by flickr user id.
 
-Things you may want to cover:
+Part of the odin project curriculum to practice integrating third part APIS.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Can be found at https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis?ref=lnav
